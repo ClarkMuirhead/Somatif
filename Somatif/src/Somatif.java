@@ -9,7 +9,7 @@ public class Somatif {
 	public static void main(String[] args) 
 	{ 
 		int []myTab=new int[100];
-		for(int i=0;i<10;i++)
+		for(int i=0;i<100;i++)
 		{
 			myTab[i]=(int)(Math.random()*(i+1));
 		}
