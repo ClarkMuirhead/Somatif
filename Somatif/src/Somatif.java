@@ -37,7 +37,7 @@ public class Somatif {
 		int sommeNombresPremiers=0;
 		for(int i=0;i<a.length;i++)
 		{
-			if (isPrimeNumber(a[i]))
+			if isPrimeNumber(a[i])
 			
 				sommeNombresPremiers+=a[i];  // somme = somme+a[i];
 		}
